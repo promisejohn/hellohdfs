@@ -15,6 +15,9 @@ import org.apache.hadoop.hbase.client.ResultScanner;
 import org.apache.hadoop.hbase.client.Scan;
 import org.apache.hadoop.hbase.util.Bytes;
 
+/*
+ * Don't forget to add entries in /etc/hosts for hostnames in hbase-site.xml when testing.
+ */
 public class HelloHbase {
 
 	public static void main(String[] args) throws IOException {
